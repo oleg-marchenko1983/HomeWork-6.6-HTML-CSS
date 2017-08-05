@@ -1,0 +1,52 @@
+
+.one{
+    background-color: green;
+}
+.two{
+    background-color:purple;
+}
+.one:active{
+    background-color:red;
+}
+.two:active{
+    background-color:gold;
+}
+
+.one:hover{
+    background-color:yellow;
+}
+.two:hover{
+    background-color:brown;
+}
+
+.green:focus{
+  border: 2px solid green;
+}
+
+.even_p:nth-child(even){
+background-color:grey;
+}
+.element:first-letter{
+font: 2em Georgia;
+color: red;
+}
+.element_one:after{
+    content: "*"
+}
+.element_one:before{
+    content: "\2602"
+}
+.block{
+    width: 30px;
+    height: 20px;
+    background-color:black;
+    position: relative;
+    margin-right: 20px;
+}
+.block:before{
+    content: '';
+    position: absolute;
+    right: 18px;
+    border: 10px solid transparent;
+    border-right: 20px solid black;
+}
