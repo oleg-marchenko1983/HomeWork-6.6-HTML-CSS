@@ -5,12 +5,6 @@
 .two{
     background-color:purple;
 }
-.one:active{
-    background-color:red;
-}
-.two:active{
-    background-color:gold;
-}
 
 .one:hover{
     background-color:yellow;
@@ -19,7 +13,14 @@
     background-color:brown;
 }
 
+.one_active:active{
+    background-color:red;
+}
+.two_active:active{
+    background-color:gold;
+}
 .green:focus{
+  outline:none;
   border: 2px solid green;
 }
 
